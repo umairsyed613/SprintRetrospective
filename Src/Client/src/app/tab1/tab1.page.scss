@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 0 20px;
+    position: relative;
+    img {
+        user-select: none;
+        max-height: 640px;
+    }
+    h1 {
+        position: absolute;
+        top: 60px;
+        color: #5644b0;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 348px;
+        display: flex;
+        flex-direction: column;
+    }
+    h1 span {
+        white-space: nowrap;
+    }
+    ion-text {
+        color: #413e53;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.27;
+        margin: 0;
+        text-align: center;
+    }
+}
